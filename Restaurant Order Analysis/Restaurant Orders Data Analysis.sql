@@ -115,7 +115,7 @@ FROM all_data
 GROUP BY item_id, item_name, category
 ORDER BY Num_purchases DESC;
 
-
+-------------------------------------------------------------------------------------------------------------------
 --What were the top 5 orders that spent the most money?
 WITH all_data AS(
 	SELECT  *
@@ -129,7 +129,7 @@ FROM all_data
 GROUP BY order_id
 ORDER BY Total_spend DESC;
 
-
+-------------------------------------------------------------------------------------------------------------------
 --View the details of the highest spend order. Which specific items were purchased?
 WITH all_data AS(
 	SELECT  *
@@ -152,7 +152,7 @@ WHERE order_id = 440
 GROUP BY category
 ORDER BY Num_items DESC;
 		
-
+-------------------------------------------------------------------------------------------------------------------
 --View the details of the top 5 highest spend orders.
 WITH all_data AS(
 	SELECT  *
