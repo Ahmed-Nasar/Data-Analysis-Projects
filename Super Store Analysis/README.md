@@ -38,7 +38,7 @@ In the beginning, the case was just data for a company that did not indicate any
 
 ## Excel Dashboard
 
-![]()
+![](https://github.com/Ahmed-Nasar/Data-Analysis-Projects/blob/9f7e4ba3d06232012694a471370ec8750fc46955/Super%20Store%20Analysis/Dashboard.png)
 
 
 
